@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gruping Tags</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+
+        header {
+            text-align: center;
+            background-color: white;
+            padding: 15px;
+            margin: 10px;
+        }
+        
+
+        nav :hover {
+            text-decoration: underline;
+        }
+
+        nav {
+            background-color: dimgray;
+            padding: 3px;
+            box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.678);
+
+
+        }
+
+        nav>a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        main {
+
+            background-color: white;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.582);
+        }
+
+        article {
+            background-color: rgb(205, 225, 243);
+            padding: 5px;
+            margin: 5px;
+            text-align: center;
+        }
+
+        article>h2 {
+            text-align: left;
+            font-size: 40px;
+            margin: 0px;
+        }
+
+        article>p {
+            text-align: left;
+            padding: 15px 0px 15px 0px;
+        }
+
+        article>aside {
+            background-color: rgb(152, 159, 163);
+
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            margin: 0px;
+            padding: 4px;
+
+        }
+
+        footer>p {
+            margin: 0px;
+        }
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1> Meu Site</h1>
+        <nav>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos"></section>
+        <section id="noticias">
+            <p>Esportes Politica Tecnologia</p>
+            <article>
+                <h2>Noticias do Brasil</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos eveniet distinctio magnam esse dolorem
+                    beatae voluptate fugiat in rerum, voluptatum, vitae natus tempora atque ipsam, a nihil eum
+                    praesentium incidunt.</p>
+                <aside>Artigo escrito por Rodrigo Ralliele</aside>
+            </article>
+
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Rodrigo Ralliele</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+
+</html>
