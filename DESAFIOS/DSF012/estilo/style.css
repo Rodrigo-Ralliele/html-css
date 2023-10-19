@@ -59,7 +59,7 @@ footer a {
 section {padding-top: 10vh;
 padding-bottom: 10vh; 
 line-height: 2em;
-padding-left: 30px; }
+padding-left: 30px;  }
 
 
 
@@ -68,13 +68,13 @@ section.normal {
     color: black;
 }
 
-section.imagem{background-color: black;
-width: 400px; }
-
 section.imagem {
-    background-color: black;
-    color: azure;
-    
+    background-color: rgb(43, 43, 43);
+    color: white;
+}
+
+section.imagem>p {background-color: rgba(0, 0, 0, 0.411);
+width: 400px; 
 }
 
 footer {
