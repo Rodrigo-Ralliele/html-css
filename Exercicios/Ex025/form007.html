@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>
+    <form action="#" method="post">
+        <p>
+            <label for="iest">ESTADO:</label>
+            <select name="estado" id="iest">
+                <option value="" selectED>--ESCOLHA--</option>
+                <optgroup label="REGIÃO SUDESTE">
+                    <option value="RJ">RIO DE JANEIRO</option>
+                    <option value="SP">SÃO PAULO</option>
+                    <option value="MG">MINAS GERAIS </option>
+                </optgroup>
+
+                <optgroup label="REGIAO NORDESTE">
+                    <option value="MA">MARANHÃO</option>
+                    <option value="PE">PERNAMBUCO
+                    <option>
+                    <option value="RN">RIO GRANDE DO NORTE</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="iprof">PROFISSÃO</label>
+            <input type="text" name="Prof" id="iprof" list="lstprof">
+            <datalist id="lstprof">
+                <option value="ADM">ADMINISTRAÇÃO</option>
+                <option value="CONT">CONTABILISTA</option>
+                <option value="DEV">DESENVOLVEDOR</option>
+                <option value="PROF">PROFESSOR</option>
+            </datalist>
+
+        </p>
+
+        <p>
+            <label for="imsg">MENSAGEM</label>
+            <textarea name="msg" id="imsg" cols="30" rows="10" placeholder="Sua mensagem..."></textarea>
+        </p>
+
+        <P>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </P>
+    </form>
+
+    </p>
+</body>
+
+</html>
